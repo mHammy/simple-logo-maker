@@ -31,7 +31,7 @@ inquirer
         const svgPath = `./dist/${data.logoName}_logo.svg`;
         const completeLogo = createShape(data);
 
-        //Generate the svg logo here.
+        //Generate the svg logo.
 const svgCode = createSVG(completeLogo);
 
         fs.writeFile(svgPath, svgCode, (err) =>
