@@ -8,7 +8,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest",
+    "test:detect-handles": "jest --detectOpenHandles"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,13 @@
   },
   "homepage": "https://github.com/mHammy/simple-logo-maker#readme",
   "dependencies": {
-    "inquirer": "^8.2.4"
+    "inquirer": "^8.2.4",
+    "is-css3-color": "^1.0.0",
+    "jest": "^24.9.0",
+    "readline-sync": "^1.4.10",
+    "svg-builder": "^2.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
   }
 }
