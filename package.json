@@ -1,0 +1,26 @@
+{
+  "name": "simple-logo-maker",
+  "version": "1.0.0",
+  "description": "Simple Logo Maker",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mHammy/simple-logo-maker.git"
+  },
+  "author": "mHammy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mHammy/simple-logo-maker/issues"
+  },
+  "homepage": "https://github.com/mHammy/simple-logo-maker#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
