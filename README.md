@@ -19,7 +19,6 @@ Example outputs:
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributing](#contributing)
 - [Tests](#tests)
 - [Questions](#questions)
 
@@ -30,7 +29,7 @@ Example outputs:
 - Type into your CLI "node index.js" to get started and follow the prompts. Your output file will be in the dist/ directory.
 - For color selections you can use css keywords or hex colors
 
-- Video example: 
+- Video example: https://youtu.be/BwDRkLhxhdM
 
 ## Tests
 - Type "npm test" in your CLI to run through the jest tests.
